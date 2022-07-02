@@ -33,16 +33,19 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
+    android.hardware.boot@1.0-service \
+    android.hardware.boot@1.0-impl-qti.recovery \
+    bootctrl.holi \
+    bootctrl.holi.recovery
 
 PRODUCT_PACKAGES += \
     bootctrl.holi
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.holi \
-    libgptutils \
-    libz \
-    libcutils
+#PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#    bootctrl.holi \
+#    libgptutils \
+#    libz \
+#    libcutils
 
 PRODUCT_PACKAGES += \
     otapreopt_script \

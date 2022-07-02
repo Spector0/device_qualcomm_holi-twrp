@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_holi.mk
+     $(LOCAL_DIR)/twrp_holi.mk

@@ -26,7 +26,7 @@ jobs:
 
             repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune -j$(nproc --all)
 
-            mkdir -p device/xiaomi && cd device/xiaomi
+
 
             git clone https://github.com/Spector0/device_qualcomm_holi-twrp device/qualcomm/holi
 

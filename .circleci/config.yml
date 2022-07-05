@@ -2,7 +2,7 @@ version: 2.1
 
 jobs:
 
-  TWRP-holi-:
+  TWRP_holi:
 
    docker:
 
@@ -74,4 +74,4 @@ workflows:
 
     jobs:
 
-      - TWRP-holi
+      - TWRP_holi

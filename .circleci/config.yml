@@ -24,7 +24,7 @@ jobs:
 
             repo init --depth=1 -u https://github.com/Ranjith0o7/platform_manifest_twrp_aosp -b twrp-12.1
 
-            repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune -j$(nproc --all)
+            repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune
 
 
 

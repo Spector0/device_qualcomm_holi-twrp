@@ -162,11 +162,11 @@ BOARD_RAMDISK_USE_LZ4 := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Build vendor_boot with `--dtb $(PRODUCT_OUT)/dtb.img` (generated from BOARD_PREBUILT_DTBIMAGE_DIR in KernelConfig.mk)
-BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilts/dtb
+BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt/dtb
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 # DTBO partition definitions
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 TARGET_NEEDS_DTBOIMAGE ?= true
 
 # Hack: prevent anti rollback

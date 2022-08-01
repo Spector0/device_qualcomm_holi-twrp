@@ -21,7 +21,9 @@ LOCAL_PATH := device/qualcomm/holi
 # A/B
 AB_OTA_PARTITIONS += \
     boot \
+    dtbo \
     system \
+    vendor_boot \
     vendor
 
 AB_OTA_POSTINSTALL_CONFIG += \
